@@ -1,0 +1,25 @@
+Arthur da Costa Holanda
+
+mkdir tarefa2_git
+cd .\tarefa2_git\
+git init
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+git remote add origin https://github.com/h0landa/curso-git-ead-ifrn.git
+git add texto.txt
+git commit -m "adicionando arquivo texto"
+git push -u origin main
+git branch feature-1
+git checkout feature-1
+git add texto.txt
+git commit -m "linha alterada"
+git push origin feature-1
+git checkout main
+git add texto.txt
+git commit -m "alterando mesma linha"
+git push origin main
+git merge feature-1
+git branch add-comandos
+git checkout add-comandos
+
+
+
